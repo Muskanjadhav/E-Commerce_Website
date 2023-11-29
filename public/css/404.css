@@ -1,0 +1,28 @@
+.four-0-four-section{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/404-bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.error{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.sub-line{
+    font-size: 25PX;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.sub-line a{
+    color: #fff;
+}
