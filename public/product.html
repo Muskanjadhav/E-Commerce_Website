@@ -37,7 +37,7 @@
         <img src="img/product-image.png" class="product-image" alt="">
         <div class="product-detail">
             <h1 class="product-title">premium sofa</h1>
-            <p class="product-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, natus?</p>
+            <p class="product-des">This kind of attention to detail is incredibly helpful when it comes to the modern sofa set. The sofa sets of today are highly varied both in terms of their functionality and aesthetics. Their capacity of seating and storage also differs</p>
             <div class="rating">
                 <img src="img/fill star.png" class="star" alt="">
                 <img src="img/fill star.png" class="star" alt="">
@@ -57,7 +57,7 @@
 
     <section class="detail-des">
         <h1 class="section-title">details</h1>
-        <p class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum debitis consequatur aperiam, optio explicabo ipsum, dolorem quibusdam quo voluptate, repellat veritatis veniam tempore? Cum velit hic praesentium laborum doloremque perferendis mollitia. Beatae facere modi neque officiis quod eius itaque! Amet atque omnis cum in magnam voluptas dolor esse! Sequi earum dolore, voluptatum esse amet itaque assumenda nam dignissimos dolor. Fuga incidunt ipsam veniam placeat amet quidem quia iure sint dignissimos cum architecto fugiat voluptatem quaerat dicta consequuntur impedit, a fugit nesciunt laboriosam. Sapiente quae aliquam, quis quod fuga animi commodi doloremque, veritatis ullam nemo beatae modi, asperiores doloribus eum maxime? <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem quis animi aspernatur neque, porro voluptates harum veritatis eveniet aperiam exercitationem repudiandae. Fugiat impedit illo explicabo fuga! Nesciunt neque incidunt ab iste animi sequi, in ullam fugiat aspernatur nostrum doloribus error sint? Dolores qui cumque facilis, doloribus deleniti aliquid placeat esse est, tempore tempora non praesentium at alias animi eius quaerat atque in, quasi odit quibusdam et fuga ullam sapiente. Nostrum quas possimus laboriosam, tempore quis nisi error provident officia pariatur impedit numquam obcaecati in inventore adipisci ut similique voluptates molestiae iste eaque cum. Odio reprehenderit rem consequuntur, magni repudiandae similique quidem nostrum? Ipsam molestias, voluptatem, amet molestiae sed, nihil provident consectetur adipisci qui quis tempora? Cupiditate vero minima, atque unde ratione laboriosam omnis quis dolores odio voluptate ab fugiat nihil, eius quia ipsa fugit, quibusdam maxime exercitationem hic. Quia voluptatum inventore assumenda mollitia accusamus iste, sed non vero deleniti.</p>
+        <p class="des">t is a common mistake to go and select the cheapest of furniture as most of them look unnecessarily to the untrained eye. But the premium quality sofa set is actually designed for maximal comfort and also functions well under different circumstances. They also impact the aesthetic of the room they are placed in, and this impact can be increased when the colours are mixed and matched perfectly with the room and its content. RoyalOak is a premier Indian furniture brand that sells all kinds of furniture including normal and premium sofas. We also offer free delivery and installation services for our customers <br><br>A high-quality piece of upholstery must be made of leather or fabric. Frame: A sofa's frame serves as its support system, therefore it's crucial to pick one with a strong, well-constructed frame. Look for a frame that is well constructed and is composed of strong wood or metal. <br><br>ectional sofas are one of the most popular sofa styles. Sectionals are made of multiple independent pieces and can often be arranged in different configurations, making them easy to fit into different room layouts and optimize your space as much as possible.</p>
     </section>
 
       <!-- review section -->
@@ -67,31 +67,36 @@
             <div class="review-card">
                 <div class="user-dp" data-rating="4.9"><img src="img/user 1.png" alt=""></div>
                 <h2 class="review-title">best quality more than by exceptation</h2>
-                <p class="review">Lorem ipsum dolor sit amet.</p>
+                <p class="review"></p>
             </div>
             <div class="review-card">
                 <div class="user-dp" data-rating="4.9"><img src="img/user 2.png" alt=""></div>
                 <h2 class="review-title">on time delivery with best packaging</h2>
-                <p class="review">Lorem ipsum dolor sit amet.</p>
+                <p class="review"></p>
             </div>
             <div class="review-card">
                 <div class="user-dp" data-rating="4.9"><img src="img/user 3.png" alt=""></div>
                 <h2 class="review-title">very helpful customer support</h2>
-                <p class="review">Lorem ipsum dolor sit amet.</p>
+                <p class="review"></p>
             </div>
             <div class="review-card">
                 <div class="user-dp" data-rating="4.9"><img src="img/user 4.png" alt=""></div>
                 <h2 class="review-title">very easy to refund/return products</h2>
-                <p class="review">Lorem ipsum dolor sit amet.</p>
+                <p class="review"></p>
             </div>
         </div>
     </section>
 
     <!--  add review form -->
+ 
     <section class="add-review-section">
         <h1 class="section-title">add a review</h1>
-        <input type="text" class="review-headline" placeholder="review headline">
-        <textarea placeholder="review" class="review-field"></textarea>
+        <form action="">
+       <div>
+        <input type="text" class="review-headline" placeholder="review headline" id="reviewhead">
+        </div>
+        <textarea name="" placeholder="review" class="review-field" id="review"></textarea>
+       
         <p class="rating-text">how much you liked the product</p>
         <div class="star-container">
             <img src="img/no fill star.png" class="rating-star" alt="">
@@ -100,7 +105,8 @@
             <img src="img/no fill star.png" class="rating-star" alt="">
             <img src="img/no fill star.png" class="rating-star" alt=""> 
         </div>
-        <button class="add-review-btn">add review</button>
+         <button type="button" onclick="Send()" class="add-review-btn">add review</button>
+        </form>
     </section>
 
        <!-- similar product-->
@@ -125,7 +131,11 @@
         </section>
 
     <footer>Made by Muskan Jadhav</footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
 
     <script src="js/product.js"></script>
+    
 </body>
 </html>

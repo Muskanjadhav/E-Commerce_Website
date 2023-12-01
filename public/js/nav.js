@@ -15,14 +15,16 @@ const createNavbar = () => {
     navbar.innerHTML += `
     <ul class="links-container">
     <li class="link-item"><a href="#" class="link">HOME</a></li>
-    <li class="link-item"><a href="#" class="link">PRODUCT</a></li>
+    <li class="link-item"><a href="product.html" class="link">PRODUCT</a></li>
     <li class="link-item"><a href="#" class="link">ABOUT</a></li>
     <li class="link-item"><a href="#" class="link">CONTACT</a></li>
     </ul>
     <div class="user-interactions">
         <div class="search-box">
         <input type="text" class="search" placeholder="search item">
-        <button class="search-btn"><img src="/img/search.png" alt=""></button>
+        <button class="search-btn">
+        <a href="search.html" class="link"></a>
+        <img src="/img/search.png" alt=""></button>
         </div>
     <div class="cart">
         <img src="img/cart.png" class="cart-icon"  alt="">

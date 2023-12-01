@@ -12,7 +12,7 @@ body{
     display: none;
 }
 
-.tittle{
+.title{
     text-align: center;
     font-size: 3rem;
     margin-bottom: -30px;
@@ -53,7 +53,7 @@ body{
     width: 100%;
 }
 
-.image-uplaod-container{
+.image-upload-container{
     width: 60%;
     position: relative;
     height: 600px;
@@ -82,12 +82,17 @@ body{
     opacity: 1;
 }
 
-.product-details{
+.product-deatil{
     width: 60%;
     max-width: 60%;
 }
 
 .disable{
+    pointer-events: none;
+    filter: grayscale(1);
+}
+
+.btn-container disable{
     pointer-events: none;
     filter: grayscale(1);
 }

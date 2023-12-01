@@ -1,4 +1,4 @@
-let user = JSON.parse(sessionStorage.user || null);
+    let user = JSON.parse(sessionStorage.user || null);
 
 window.onload = () => {
     if(user == null){
